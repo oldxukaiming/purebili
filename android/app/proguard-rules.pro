@@ -1,0 +1,3 @@
+-keep class com.noad.bilibili.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**

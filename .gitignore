@@ -1,0 +1,23 @@
+# Dependencies and build outputs
+node_modules/
+desktop/node_modules/
+desktop/dist/
+desktop/src-tauri/target/
+desktop/src-tauri/gen/
+
+# Android Gradle & build artifacts
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+*.ap_
+*.keystore
+*.jks
+
+# Local packaged binaries & sessions
+releases/
+*session*.json
+.DS_Store
+Thumbs.db
